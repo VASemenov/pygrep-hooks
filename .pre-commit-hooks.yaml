@@ -79,4 +79,7 @@
     types: [text]
 -   id: todo-jira-mapping
     name: TODOs are mapped to JIRA task
+    description: 'TODOs are mapped to JIRA task'
     entry: '/\# TODO:'
+    language: pygrep
+    types: [text]
