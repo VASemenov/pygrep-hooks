@@ -80,6 +80,6 @@
 -   id: todo-jira-mapping
     name: TODOs are mapped to JIRA task
     description: 'TODOs are mapped to JIRA task'
-    entry: '/\# TODO:'
+    entry: '/\# TODO [A-Z]{2,3}-[0-9]{1,3}'
     language: pygrep
     types: [text]
