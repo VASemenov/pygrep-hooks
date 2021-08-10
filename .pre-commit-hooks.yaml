@@ -77,3 +77,6 @@
     entry: "\uFFFD"
     language: pygrep
     types: [text]
+-   id: todo-jira-mapping
+    name: TODOs are mapped to JIRA task
+    entry: '/\# TODO:'
